@@ -1,0 +1,10 @@
+-As a customer I want to be able to order food because I'm a big time hacker that can't cook for myself!
+-As a customer I want to be able to cancel an order, because I regret my decision.
+-As a customer I want to be able to browse a menu, because that's how menus work.
+-As a customer I want to be able to add and remove things from my cart, because I am indecisive.
+-As a customer I would like to be able to see my total before I pay, because I keep track of my finances.
+-As a customer I want to be able to check the website to confirm my order is placed, because I worry that my food isn't being made.
+-As a customer I want to be able to leave a review with a rating, because I like to talk.
+-As a customer I want to receive an email telling me when my order is confirmed.
+-As a customer I want to be able to order as a guest, because I don't like giving away my info.
+-As a restaurant I want to be able to alert the customers when their food is ready, through automated push notification.
