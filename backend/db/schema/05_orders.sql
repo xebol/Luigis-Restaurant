@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS orders CASCADE;
+
+CREATE TABLE orders (
+  id SERIAL PRIMARY KEY NOT NULL,
+  cart_id INTEGER REFERENCES cart(id) ON DELETE CASCADE,
+  confirmation_number INTEGER NOT NULL
+);

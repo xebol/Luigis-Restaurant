@@ -1,5 +1,5 @@
-INSERT INTO customers (name, email_address, admin_access, password)
-VALUES ('Mario', 'm@m.com', false, '1234'),
-('Yoshi', 'y@y.com', false, '1234'),
-('Bowser', 'b@b.com', false, '1234'),
-('Luigi', 'l@l.com', true, '1234');
+INSERT INTO customers (name, email_address, password)
+VALUES ('Mario', 'm@m.com', '1234'),
+('Yoshi', 'y@y.com', '1234'),
+('Bowser', 'b@b.com', '1234'),
+('Luigi', 'l@l.com', '1234');

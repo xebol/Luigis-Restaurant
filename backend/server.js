@@ -17,9 +17,11 @@ app.use(bodyParser.json());
 
 const customerApiRoutes = require("./routes/customers-api");
 const orderApiRoutes = require("./routes/orders-api");
+const reviewApiRoutes = require("./routes/reviews-api");
 
 app.use("/api/customers", customerApiRoutes);
 app.use("/api/orders", orderApiRoutes);
+app.use("/api/reviews", reviewApiRoutes);
 
 server.listen(PORT, (err) => {
   if (err) console.log("Error message: ", err);
