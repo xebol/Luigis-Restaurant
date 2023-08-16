@@ -50,7 +50,7 @@ const runResetDB = async() => {
     console.log("Exiting process");
     process.exit();
   } catch (err) {
-    console.error(`Failed due to error: ${err}`);
+    console.error(`Failed due to ${err}`);
     process.exit();
   }
 };

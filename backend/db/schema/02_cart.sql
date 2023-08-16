@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS cart CASCADE;
+
+CREATE TABLE cart (
+   id SERIAL PRIMARY KEY NOT NULL,
+  customer_id INTEGER REFERENCES customers(id) ON DELETE CASCADE,
+  menu_item_id INTEGER REFERENCES menu_items(id) ON DELETE CASCADE,
+  total_price INTEGER NOT NULL
+);
+
